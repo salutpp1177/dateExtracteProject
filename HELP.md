@@ -19,9 +19,9 @@ If your download this project directly, you need to build the project by yoursel
 * You can download the docker image by the following command 
   
 * Step 1, `docker pull ghcr.io/salutpp1177/dateextracteproject:master`
-* Step 2, use `docker images` to check the image name <b>ghcr.io/salutpp1177/dateextracteproject </b>
+* Step 2, use `docker images` to check IMAGE_ID of the name <b>ghcr.io/salutpp1177/dateextracteproject </b>
 * Step 3, run project with the following command
 
-`docker run -p 8080:8080 -t ghcr.io/salutpp1177/dateextracteproject`
+`docker run -p 8080:8080 -t IMAGE_ID`
 
 After running the project, you can locate into <b>localhost:8080</b> in your browser.
